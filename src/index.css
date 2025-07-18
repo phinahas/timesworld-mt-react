@@ -1,0 +1,9 @@
+/* Custom style for the horizontal line */
+.custom-hr {
+  border-top: 1px dashed #000; /* Dashed line */
+  width: 30%;
+  margin: 0 2px;
+}
+.pl-md-35px {
+  padding-left: 35px !important;
+}
