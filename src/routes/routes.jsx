@@ -32,6 +32,14 @@ export default function AppRoutes() {
         },
       ],
     },
+    {
+      path: "*",
+      element: <NotFoundPage />,
+    },
   ]);
   return routes;
 }
+
+const NotFoundPage = () => {
+  return <div>Page Not Found</div>;
+};
