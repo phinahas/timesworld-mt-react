@@ -8,7 +8,7 @@ import { useDispatch } from "react-redux";
 import { SET_USER } from "../../../store/actions";
 
 //icons
-import Google from "../../../assets/lineicons/google";
+import Google from "../../../assets/lineicons/Google";
 import Faceebook from "../../../assets/lineicons/Faceebook";
 import Twitter from "../../../assets/lineicons/Twitter";
 import Linkedin from "../../../assets/lineicons/Linkedin";
@@ -155,7 +155,7 @@ export default function LoginSectionComponent() {
         style={{ backgroundColor: "", paddingLeft: "" }}
       >
         <Col lg={5} md={6} className="p-1">
-          <Row style={{justifyContent: "center"}}>
+          <Row style={{ justifyContent: "center" }}>
             <Col xs="auto" className="p-1">
               <Google />
             </Col>
