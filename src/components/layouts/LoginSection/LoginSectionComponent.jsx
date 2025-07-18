@@ -11,7 +11,7 @@ import { SET_USER } from "../../../store/actions";
 import Google from "../../../assets/lineicons/Google";
 import Faceebook from "../../../assets/lineicons/Faceebook";
 import Twitter from "../../../assets/lineicons/Twitter";
-import Linkedin from "../../../assets/lineicons/Linkedin";
+import Linked from "../../../assets/lineicons/Linked";
 
 // UI Components
 import TextFieldComponent from "../../common/Inputs/TextFieldComponent";
@@ -163,7 +163,7 @@ export default function LoginSectionComponent() {
               <Faceebook />
             </Col>
             <Col xs="auto" className="p-1">
-              <Linkedin />
+              <Linked />
             </Col>
             <Col xs="auto" className="p-1">
               <Twitter />
